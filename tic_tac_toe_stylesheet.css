@@ -1,0 +1,146 @@
+body{
+  background-color: #56baed;
+}
+.select-box
+{
+  background-color: white;
+  position:absolute;
+  top:35%;
+  left:38%;
+  height:170px;
+  width:350px;
+  padding:20px;
+  border-radius:5px;
+  box-shadow: 5px 10px 8px #888888;
+  display:block;
+}
+
+.select-box header{
+  font-size:30px;
+  font-weight: 900;
+  padding:10px;
+}
+.select-box .title
+{
+  font-size: 20px;
+  padding:10px;
+  font-weight: 400;
+}
+
+.select-box .options
+{
+  display:flex;
+  width:100%;
+  margin:10px;
+}
+
+.options button{
+  padding:8px;
+  width:150px;
+  cursor:pointer;
+  margin-right:20px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 18px;
+  background-color: #56baed;
+  color:white;
+  font-weight: 500;
+}
+.play-board
+{
+  display:none;
+}
+.play-board
+{
+  position:absolute;
+  top:20%;
+  left:35%;
+  width:500px;
+}
+.play-board .details{
+  background-color: white;
+  height:60px;
+  padding:10px;
+  border-radius: 5px;
+  margin:5px;
+}
+.play-board .details .players{
+  display:flex;
+  margin:7px;
+  margin-left: 90px;
+}
+.play-board .details .players span{
+  border:none;
+  border-radius: 8px;
+  font-size:25px;
+  font-weight: 600;
+  color:white;
+  width:120px;
+  text-align: center;
+  padding: 8px;
+  background-color: #56baed;
+}
+.play-board .details .players button{
+  width:100px;
+  font-size: 15px;
+  margin:8px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  color:white;
+  background-color: rgba(255, 99, 71, 0.8);
+}
+
+.play-board section{
+  display:flex;
+}
+.play-board section span{
+  background-color: white;
+  display:block;
+  height:120px;
+  width:160px;
+  margin:5px;
+  border-radius: 5px;
+}
+.result-box
+{
+  display:none;
+}
+.result-box
+{
+  position:absolute;
+  top:40%;
+  left:40%;
+  background-color: white;
+  height:200px;
+  width:350px;
+  border-radius: 7px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.result-box .won-text
+{
+  margin:40px 0px 0px 40px;
+  padding:10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.result-box button
+{
+  margin-left:120px;
+  margin-top:20px;
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+  padding:10px;
+  width:120px;
+  border-radius: 5px;
+  border: none;
+  background-color: #56baed;
+}
+
+.result-box button:hover
+{
+  transform: scale(0.96);
+}

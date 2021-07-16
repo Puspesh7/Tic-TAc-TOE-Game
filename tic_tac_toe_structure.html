@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tic_tac_toe_stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="select-box">
+      <header>Tic Tac Toe</header>
+      <hr>
+      <div class="content">
+        <div class="title">Select which player do you want to be</div>
+        <div class="options">
+          <button type="button" class="playerX">Player(X)</button>
+          <button type="button" class="playerO">Player(O)</button>
+        </div>
+      </div>
+    </div>
+    <!-- Playbox Area -->
+    <div class="play-board">
+      <div class="details">
+        <div class="players">
+          <span class="x-turn">X's turn</span>
+          <span class="y-turn">O's turn</span>
+          <button class="next-button">next</button>
+        </div>
+      </div>
+      <section>
+        <span class="box-1"></span>
+        <span class="box-2"></span>
+        <span class="box-3"></span>
+      </section>
+      <section>
+        <span class="box-4"></span>
+        <span class="box-5"></span>
+        <span class="box-6"></span>
+      </section>
+      <section>
+        <span class="box-7"></span>
+        <span class="box-8"></span>
+        <span class="box-9"></span>
+      </section>
+    </div>
+    <!-- Result box -->
+    <div class="result-box">
+      <div class="won-text"><span>Player X won the game!</span></div>
+      <div class="btn">
+        <button type="button" class="replay">Replay</button>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src = tic_tac_toe_javascript.js></script>
+</html>
